@@ -1,0 +1,106 @@
+.container--1 {
+  margin-top: 1rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(77, 67, 64, 0.61),
+      rgba(59, 53, 51, 0.8)
+    ),
+    url(../Photos/1dr52fr.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 95vh;
+}
+
+.container--2 {
+  margin-top: 1rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(77, 67, 64, 0.61),
+      rgba(59, 53, 51, 0.8)
+    ),
+    url(../Photos/panda-wallpapers-25572-9364517.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 95vh;
+}
+
+.carousel .carousel-item {
+  width: 30rem !important;
+}
+
+.container--3 {
+  margin-top: 1rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(77, 67, 64, 0.61),
+      rgba(59, 53, 51, 0.8)
+    ),
+    url(../Photos/13_panda.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 95vh;
+}
+
+body {
+  font-size: 62.5%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  background-image: linear-gradient(to right bottom, #ff9e80, #ff6e40);
+}
+
+.image_logo {
+  height: 70px;
+  width: 70px;
+  padding-bottom: 5px;
+}
+
+.leftanime {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  animation-name: moveInLeft;
+  animation-duration: 5s;
+}
+
+.balloon {
+  animation-name: moveInRight;
+  animation-duration: 5s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.wishes_tab {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(1);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+
+    transform: translateY(-100px);
+  }
+
+  80% {
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(1);
+  }
+}
